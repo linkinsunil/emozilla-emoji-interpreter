@@ -7,7 +7,31 @@ const emojiDictionary = {
   "😔": "sad",
   "🥡": "takeout box",
   "❤️": "love",
-  "😑": "annoyance"
+  "😑": "annoyance",
+  "😀": "joy",
+  "😁": "fun",
+  "😂": "laugh",
+  "🤣": "ROFL",
+  "😃": "Happy laugh",
+  "😄": "joy laugh",
+  "😅": "Sigh laugh",
+  "😆": "Burst laugh",
+  "😉": "Wink",
+  "😊": "Smile",
+  "😎": "cool",
+  "😍": "Lovely",
+  "😘": "love kiss",
+  "😗": "kiss",
+  "😙": "joy kiss",
+  "😚": "shy kiss",
+  "🙂": "happy",
+  "🤗": "cuddle",
+  "🤩": "shining joy expression",
+  "🤔": "curious",
+  "🤨": "thinking",
+  "😠": "angry",
+  "🤬": "abusively angry",
+  "🤢": "unwell"
 };
 
 const emojis = Object.keys(emojiDictionary);
@@ -23,7 +47,7 @@ export default function App() {
     if (inputEmoji in emojiDictionary) {
       setMeaning(emojiDictionary[inputEmoji]);
     } else {
-      setMeaning("can't recognise this empji at this moment");
+      setMeaning("can't recognise this emoji at this moment");
     }
   }
 
