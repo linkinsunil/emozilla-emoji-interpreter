@@ -67,7 +67,7 @@ export default function App() {
           minWidth: "80%"
         }}
       />
-      <h2> {emoji} </h2>
+      <h1 style={{ fontSize: "3rem" }}> {emoji} </h1>
       <h3> {meaning} </h3>
       {emojis.map((emoji) => (
         <span
