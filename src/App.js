@@ -17,7 +17,6 @@ const emojiDictionary = {
   "😅": "Sigh laugh",
   "😆": "Burst laugh",
   "😉": "Wink",
-  "😊": "Smile",
   "😎": "cool",
   "😍": "Lovely",
   "😘": "love kiss",
